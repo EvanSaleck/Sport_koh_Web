@@ -1,0 +1,4433 @@
+/* Import des polices */ 
+@import url(//db.onlinewebfonts.com/c/fd5fc4060a6e4d402fc0c45fad1f852f?family=29LT+Zarid+Display);
+@font-face {font-family: "29LT";
+     src: url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.eot");
+     src: url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.eot?#iefix") format("embedded-opentype"), 
+     url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.woff2") format("woff2"), 
+     url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.woff") format("woff"), 
+     url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.ttf") format("truetype"), 
+     url("//db.onlinewebfonts.com/t/fd5fc4060a6e4d402fc0c45fad1f852f.svg#29LT Zarid Display") format("svg"); 
+    }
+
+/* Definition de toutes les pages */
+
+* {
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    background-color: #EFEFEF;
+}
+
+
+main {
+    padding-right: 6.5%;
+    padding-left: 6.5%;
+}
+
+h3, h2, h4, h5, h1, h6 {
+    font-family: '29LT', sans-serif;
+    font-weight: 700;
+}
+
+a:visited{
+    color: #FFFFFF; /* Couleur du lien qui ne doit pas être visible */
+}
+a:active{
+    color: #FFFFFF; /* Couleur du lien qui ne doit pas être visible */
+}
+a:hover {
+    color: #FFFFFF; /* Couleur du lien au survol */
+}
+a:link {
+    color: #FFFFFF; /* Couleur du lien */
+    text-decoration: none; /* Enlève le soulignement des liens */
+}
+
+
+/* Définitiion du header */
+
+#barreNav a:hover {
+    border-top: solid #99CDF2;
+    justify-content: center;
+    border-radius: 2px;
+    border-width: 3px;
+    transform: translateY(-10px);
+    padding-top: 10px;
+} 
+
+#barreNav {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#barreNav ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 6em;
+	background-color: #255170;
+	background-image: url(images/SK.png);
+	background-repeat: no-repeat;
+	background-size: 6em;
+	background-position: 5%;
+}
+
+#barreNav ul li{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+	list-style: none;
+	padding: 0 3%;
+	font-size: 28px;
+}
+
+#barreNav a {
+	color: #efefefef;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#barreNav a:hover {
+	border-top: solid #99CDF2;
+	border-radius: 3px;
+	border-width: 3px;
+	padding-top: 10px;
+}
+
+/* Accueil */
+
+.Accueil_HautDepage{
+    position: static;
+    background-image: url(images/header_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50em;
+}
+
+.Accueil_HautDepage img{
+    width: 13%;
+    position: relative;
+    top: 2em;
+    left: 1em;
+}
+
+.Accueil_Nom{
+    display: flex;
+	flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+.Accueil_Nom h1, .Accueil_Nom h2{
+    display: flex;
+    color: #fff;
+    background: rgba(37, 81, 112, 0.5);
+	flex-wrap: wrap;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+
+    width: 50%;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 1em;
+}
+/************************ Menu d'Accueil *************************/
+.Acceuil_header{
+    position: sticky;
+    top:0;
+}
+
+.Accueil_Menu{
+    background-color: #255170;
+    border-bottom: 0.5em solid #99CDF2;
+    color: #fff;
+    display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+	align-items: center;
+
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+header #barreNavI{
+    position: sticky;
+    top:0;
+}
+
+header #barreNavI{
+    background-color: #255170;
+    border-bottom: 0.5em solid #99CDF2;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+header #barreNavI a:hover {
+    border-top: solid #99CDF2;
+    border-radius: 10px;
+    justify-content: center;
+    border-radius: 2px;
+    border-width: 3px;
+    transform: translateY(-10px);
+    padding-top: 10px;
+
+    border-width: 3px;
+    padding-top: 10px;
+}
+
+header #barreNavI ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 6em;
+    background-color: #255170;
+}
+
+header #barreNavI ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    padding: 0 5%;
+    font-size: 28px;
+}
+
+header #barreNavI a {
+    color: #efefefef;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+/************************ Accueil Section : Sejour + Sejour Promo + A Propos de Nous *************************/
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4{
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.Accueil_SejourPromo h2, .Accueil_SejourPromo h3{
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+.Accueil_AProposDeNous h2{
+    padding-top: 1em;
+}
+
+/* Accueil Catalogue des différents Sejours */
+.Accueil_Catalogue{
+    display: block;
+    flex-wrap: nowrap;
+	justify-content: center;
+    width: 25em;
+    align-items: center;
+    text-align: center;
+
+    margin: 1.5em auto;
+    padding: 1em;
+}
+.Accueil_Catalogue li{
+    background-color: #0F2637;
+    color: #fff;
+    list-style: none;
+
+    display: flex;
+    width: auto;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+
+    margin: 1.5em auto;
+    padding: 1em;
+}
+
+.Accueil_Catalogue a{
+    color: #efefefef;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+/************************ Accueil Section : Sejour Adulte *************************/
+.Accueil_SejoursALaUne{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+    margin: 2em 0em 1em 3em;
+}
+.Accueil_Sejour{
+    position: relative;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.Accueil_Sejour .Accueil_Decoration{
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    size: 1em;
+
+    top: 50%;
+    left: -15%;
+}
+.Accueil_Sejour .Accueil_Decoration img{
+    width : 70%;
+}
+
+.Accueil_SejourImage{
+    position: relative;
+}
+.Accueil_SejourImage img{
+    position: relative;
+    z-index: -2;
+    filter: brightness(50%);
+    width: 90%;
+    height: auto;
+    vertical-align: bottom;
+}
+.Accueil_SejourImage .Accueil_SejourNom{
+    position: absolute;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    z-index: -1;
+    top: 55%;
+    left: 4%;
+    width: 80%;
+}
+
+.Accueil_SejourTarifTemps{
+    background-color: #0F2637;
+    color: #fff;
+    position: relative;
+    z-index: -1;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+    text-align: right;
+    width : 90%;
+    height: 5em;
+    font-size: 2em;
+}
+
+.Accueil_SejourTarifTemps p, .Accueil_SejourTarifTemps hr{
+    position: relative;
+    top: 0%;
+    right: 5%;
+}
+
+.Accueil_SejourTarifTemps_Prix{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.Accueil_SejourTarifTemps hr{
+    display: inline-flex;
+    width: 7em;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+/* Transition */
+.Accueil_Sejour .Accueil_SejourNom {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+
+.Accueil_Sejour:hover .Accueil_SejourNom {
+    opacity: 1;
+    transform: translateY(-2em);
+}
+
+/************************ Accueil Separateur *************************/
+.Accueil_Separateur{
+    position: relative;
+    z-index: -1;
+    display: flex;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+}
+.Accueil_Separateur img{
+    width: 90%;
+}
+
+.Accueil_AProposDeNous .Accueil_Separateur{
+    position: relative;
+    z-index: 0;
+    display: flex;
+	flex-wrap: nowrap;
+
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/************************ Accueil Section : Sejour Promo *************************/
+.Accueil_PromosALaUne{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.Accueil_PresentationPromo{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    padding-left: 3em;
+}
+
+.Accueil_ExemplePromo{
+    position: relative;
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+
+.Accueil_VignettePromo{
+    position: absolute;
+    z-index: -1;
+    top: -2.8em;
+    left: -2.8em;
+}
+
+.Accueil_VignettePromo img{
+    width: 80%;
+}
+
+.Accueil_Promo .Accueil_Decoration{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    size: 1em;
+
+    top: 50%;
+    left: -10%;
+}
+
+.Accueil_Promo .Accueil_Decoration img{
+    width : 75%;
+}
+
+.Accueil_PromoImage{
+    position: relative;
+}
+.Accueil_PromoImage img{
+    position: relative;
+    z-index: -2;
+    filter: brightness(50%);
+    width: 95%;
+    height: auto;
+    vertical-align: bottom;
+}
+.Accueil_PromoImage .Accueil_PromoNom{
+    position: absolute;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    z-index: -1;
+    top: 55%;
+    left: 3%;
+    width: 80%;
+}
+
+.Accueil_PromoTarifTemps{
+    background-color: #0F2637;
+    color: #fff;
+    position: relative;
+    z-index: -1;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+    text-align: right;
+    width : 95%;
+    height: 5em;
+    font-size: 2em;
+}
+
+.Accueil_PromoTarifTemps p, .Accueil_PromoTarifTemps hr{
+    position: relative;
+    right: 1em;
+}
+
+.Accueil_PromoTarifTemps_Prix{
+    color: #fff;
+    font-size: 1.2em;
+    z-index: -1;
+}
+
+.Accueil_PromoTarifTemps hr{
+    display: inline-flex;
+    width: 7em;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+.Accueil_BaisseDePrix{
+    text-decoration: line-through;
+    font-size: x-large;
+}
+
+/* Transition */
+.Accueil_Promo .Accueil_PromoNom {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+}
+
+.Accueil_Promo:hover .Accueil_PromoNom {
+    opacity: 1;
+    transform: translateY(-2em);
+}
+
+/************************ Accueil Section : A Propos de Nous ************************/
+.Accueil_AProposDeNous{
+    position: relative;
+    z-index: -2;
+    background-color: #255170;
+    color: #fff;
+}
+
+.Accueil_DétailAProposDeNous{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+    margin: -3em 2em 5em 2em;
+
+}
+
+.Accueil_DétailAProposDeNous img{
+    width: 5em;
+}
+
+#Acceuil_DétailAprofondi_Sport {
+    position: relative;
+    z-index: -1;
+    top: -1em;
+}
+
+.Accueil_DétailAProposDeNous hr{
+    position: relative;
+    z-index: -1;
+    top: 8em;
+    height: 1px;
+    height: 16em;
+}
+
+.Acceuil_DétailAprofondi{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 20em;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: large;
+
+    margin: 1em;
+}
+
+.Acceuil_DétailAprofondi h4{
+    font-size: x-large;
+    margin: 1em 0;
+}
+
+.Acceuil_DétailAprofondi p{
+    font-size: large;
+}
+
+#separateur img{
+    width: 95.5%;
+    text-align: center;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+#text1{
+    font-size: 30px;
+    font-family: '29LT', sans-serif;
+    color: #efefef;
+    text-align: center;
+
+    padding-top: 25%;
+    margin-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+#text1 hr{
+    margin-top: 1%;
+    color: #EFEFEF;
+    height: 70%;
+    border-radius: 0.5em;
+    margin-left: 53%;
+    margin-right: 17%;
+}
+
+#text2{
+    font-size: 30px;
+    font-family: '29LT', sans-serif;
+    color: #efefef;
+    text-align: center;
+
+    padding-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#text2 hr{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color: #EFEFEF;
+}
+
+#text3{
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: 0.2%;
+    margin-right: 0.5%;
+   
+    
+
+    font-size: 28px;
+    font-family: '29LT', sans-serif;
+    color: #efefef;
+    text-align: center;
+
+}
+
+.bleu{
+    color: #50ACEF;
+}
+
+
+/* ENTETE ----------------------------------------------------------------------------------------------------------- */
+#entete{
+    background-image: url(images/image_tete.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    height: 483px;
+    width: auto;
+    color: #fff;
+    padding-right: 7%;
+}
+
+#barre{
+    color: #255170;
+    border-color: #255170;
+    border-style:double;
+    border-top-width: 2px;
+}
+
+#entete h1{
+    font-size: 64px;
+    padding-left: 4%;
+    padding-top: 3%;
+
+    font-family: 'Arimo', sans-serif;
+}
+
+#entete p{
+    font-size: 35px;
+    width: 80%;
+    height: 171.69px;
+    padding-left: 4%;
+    padding-right: 24%;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    text-align: justify;
+
+    font-family: 'Inter', sans-serif;
+}
+
+#montagne{
+    background-image: url(images/montagne.jpg);
+    background-size: 422.56px 280.72px;
+    background-repeat: no-repeat;
+
+
+    font-family: 'Inter', sans-serif;
+
+    text-align: center;
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    padding-left: 8%
+    
+    
+}
+
+#mer{
+    background-image: url(images/En_bord_de_mer.jpg);
+    background-size: 422.56px 280.72px;
+    background-repeat: no-repeat;
+
+    font-family: 'Inter', sans-serif;
+
+    padding-left: 8%
+}
+
+#international {
+    background-image: url(images/a_l_international.jpg);
+    background-size: 422.56px 280.72px;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    
+
+    font-family: 'Inter', sans-serif;
+}
+
+.opacite{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.3em;
+    font-size: 22px;
+}
+
+
+#endroit ul{
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+#endroit ul li{
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 280.72px;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+/* SEJOUR MONTAGNE ----------------------------------------------------------------------------------------------------------- */
+
+#sejour1 a:hover{
+    color: #99CDF2;
+    text-decoration: none;
+}
+
+#sejour1 h3 {
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+    color: #fff;
+    font-size: 29px;
+    background-color: #255170;
+    background-size: 81px 419px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+}
+
+#sejour1 figure img{
+    height: 32.55px;
+    width: 35.88px;
+}
+
+#sport1 {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	align-items: stretch;
+
+    font-family: 'Inter', sans-serif;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#montagne1 {
+    background-image: url(images/montagne1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#montagne1 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmontagne1 {
+    width: 422.74px;
+    
+}
+
+#montagne2 {
+    background-image: url(images/montagne2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#montagne2 #text1{
+    margin-top: 6%;
+}
+
+#montagne2 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmontagne2 {
+    width: 422.74px;
+    
+}
+
+#montagne3 {
+    background-image: url(images/montagne3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+
+    
+
+}
+
+#montagne3 #text1{
+    margin-top: 6%;
+}
+
+#montagne3 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmontagne3 {
+    width: 422.74px;
+    
+}
+
+/* SEJOUR MER ----------------------------------------------------------------------------------------------------------- */
+
+#sejour2 a:hover{
+    color: #99CDF2;
+    text-decoration: none;
+}
+
+#sejour2 h3 {
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+    color: #fff;
+    font-size: 29px;
+    background-color: #255170;
+    background-size: 81px 419px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+}
+
+#sejour2 figure img{
+    height: 32.55px;
+    width: 35.88px;
+}
+
+#sport2 {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	align-items: stretch;
+
+    font-family: 'Inter', sans-serif;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#mer1 {
+    background-image: url(images/mer1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#mer1 #text1{
+    margin-top: 6%;
+}
+
+#mer1 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmer1 {
+    width: 422.74px;
+    
+}
+
+#mer2 {
+    background-image: url(images/mer2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#mer2 #text1{
+    margin-top: 6%;
+}
+
+#mer2 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmer2 {
+    width: 422.74px;
+    
+}
+
+#mer3 {
+    background-image: url(images/mer3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+
+    
+
+}
+
+#mer3 #text1{
+    margin-top: 6%;
+}
+
+#mer3 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockmer3 {
+    width: 422.74px;
+    
+}
+
+/* SEJOUR INTERNATIONAL ----------------------------------------------------------------------------------------------------------- */
+
+#sejour3 a:hover{
+    color: #99CDF2;
+    text-decoration: none;
+}
+
+#sejour3 h3 {
+    font-family: 'Inter', sans-serif;
+
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+    color: #fff;
+    font-size: 29px;
+    background-color: #255170;
+    background-size: 81px 419px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+}
+
+#sejour3 figure img{
+    height: 32.55px;
+    width: 35.88px;
+}
+
+#sport3 {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	align-items: stretch;
+
+    font-family: 'Inter', sans-serif;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+}
+
+#international1 {
+    background-image: url(images/international1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#international1 #text1{
+    margin-top: 6%;
+}
+
+#international1 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockinter1 {
+    width: 422.74px;
+    
+}
+
+#international2 {
+    background-image: url(images/international2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: #0F2637;
+    
+
+}
+
+#international2 #text1{
+    margin-top: 6%;
+}
+
+#international2 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockinter2 {
+    width: 422.74px;
+    
+}
+
+#international3 {
+    background-image: url(images/international3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 59%;
+    background-position: top;
+    background-color: #0F2637;
+
+    
+
+}
+
+#international3 #text1{
+    margin-top: 6%;
+}
+
+#international3 h4 {
+    text-align: center;
+    margin-top: 30%;
+    padding: 1em;
+    margin: auto 20%;
+    margin-top: 30%;
+    color: #EFEFEF;
+
+    
+}
+
+#blockinter3 {
+    width: 422.74px;
+    
+}
+
+
+/* FOOTER ----------------------------------------------------------------------------------------------------------- */
+
+footer {
+	background-color: #255170;
+	text-decoration: none;
+	color: #EFEFEF;
+}
+
+footer section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 2em 1.5em ;
+	height: 10em;
+	text-align: center;
+	font-size: large;
+}
+
+footer address {
+	text-align: left;
+	line-height: 2em;
+}
+
+footer img {
+	width : 200px;
+	height : 190px;
+}
+
+#mention p {
+	margin-top: -0.5em;
+	margin-bottom: 1em;
+}
+
+footer span {
+	font-weight: bold;
+}
+
+#reseaux {
+	line-height: 3em;
+}
+
+#reseaux img{
+	width : 110px;
+	height : 80px;
+}
+
+#copyr {
+	background-color: #0F2637;
+	padding: 0.5em;
+	text-align: center;
+	color: #EFEFEF;
+	font-style: italic;
+	font-size: small;
+}
+
+
+/* MEDIA QUERY ---------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width : 560px) and (max-width : 1440px) {
+    #barreNav ul {
+        background-size: 5.5em;
+        background-position: 3%;
+    }
+}
+
+@media screen and (max-width : 560px) and (orientation : portrait) {
+    #entete{
+        background-size: 100% 100%;
+        height: 127px;
+        width: auto;
+        padding-right: 6%;
+    }
+
+    #entete h1{
+        font-size: 20px;
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+
+    #entete p{
+        font-size: 11px;
+        padding-left: 3%;
+        padding-right: 23%;
+        padding-top: 3%;
+        padding-bottom: 9%;
+    }
+
+    #montagne{
+        background-size: 115px 76px;
+        padding-left: 5%
+    }
+
+    #mer{
+        background-size: 115px 76px;
+        padding-left: 5%
+    }
+
+    #international {
+        background-size: 115px 76px;
+        padding-left: 5%;
+    }
+
+    .opacite{
+        padding: 0.2em;
+        font-size: 10px;
+    
+    }
+
+    #endroit ul{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #endroit ul li{
+        padding-left: 4.5%;
+        padding-right: 5%;
+        height: 76px;
+        font-size: 11px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3.5%;
+        margin-bottom: 0.5%;
+    }
+
+    #separateur img{
+        width: 95.5%;
+        height: 2%;
+        /* margin-top: 0.5%;
+        margin-bottom: 2%;
+        padding-top: 0.5%; */
+    }
+
+    #sejour1{
+        height: 215px;
+    }
+
+    #sejour1 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour1 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport1 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #montagne1 {
+        background-size: 100%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #montagne1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne1 {
+        width: 115px;
+        
+    }
+
+    #montagne2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #montagne2 #text1{
+        margin-top: 10%;
+    }
+
+    #montagne2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne2 {
+        width: 115px;
+    }
+
+    #montagne3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #montagne3 #text1{
+        margin-top: 10%;
+    }
+
+    #montagne3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne3 {
+        width: 115px;
+    }
+
+    #text1{
+        font-size: 8.5px;
+    
+        padding-top: 40%;
+        margin-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 2%;
+        margin-left: 8%;
+    
+    }
+    
+    #text1 hr{
+        margin-top: 2%;
+        color: #EFEFEF;
+        height: 70%;
+        border-radius: 0.5em;
+        margin-left: 53%;
+        margin-right: 17%;
+    }
+    
+    #text2{
+        font-size: 8.5px;
+    
+        padding-top: 3%;
+        padding-left: 5%;
+        margin-bottom: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    
+    #text2 hr{
+        margin-left: 5%;
+        margin-right: 0.5%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    
+    #text3{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 0%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        font-size: 8.5px;
+    }
+
+    #sejour2{
+        height: 215px;
+    }
+
+    #sejour2 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour2 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport2 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #mer1 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #mer1 #text1{
+        padding-top: 34%;
+    }
+
+    #mer1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer1 {
+        width: 115px;
+        
+    }
+
+    #mer2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #mer2 #text1{
+        padding-top: 34%;
+    }
+
+    #mer2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer2 {
+        width: 115px;
+    }
+
+    #mer3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #mer3 #text1{
+        padding-top: 23%;
+    }
+
+    #mer3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer3 {
+        width: 115px;
+    }
+
+    #sejour3{
+        height: 215px;
+    }
+
+    #sejour3 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour3 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport3 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #international1 {
+        background-size: 100%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #international1 #text1{
+        padding-top: 24%;
+    }
+
+    #international1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter1 {
+        width: 115px;
+        
+    }
+
+    #international2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international2 #text1{
+        padding-top: 23%;
+    }
+
+    #international2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter2 {
+        width: 115px;
+    }
+
+    #international3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international3 #text1{
+       padding-top: 23%;
+    } 
+
+    #international3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter3 {
+        width: 115px;
+    }
+
+    
+ footer section {
+    height: 7em; 
+    padding: 2em 1em ;
+    font-size: 12px; 
+    }
+   
+    footer address {
+    line-height: 1.5em; 
+    order: 1; 
+    }
+   
+    footer img {
+    width : 70px; 
+    height : 60px; 
+    }
+   
+    #mention { 
+    order: 3; 
+    }
+   
+   
+    #mention p {
+    margin-top: 0em; 
+    margin-bottom: 0.5em; 
+    }
+   
+    #reseaux {
+    line-height: 2em; 
+    order: 2; 
+    }
+   
+    #reseaux img{
+    width : 40px; 
+    height : 30px; 
+    }
+   
+    #copyr {
+    font-size: 10px; 
+    }
+}
+ 
+@media screen and (max-width : 480px) and (orientation : portrait) {
+
+    #montagne1 #text1{
+        margin-left: 10%;
+    }
+
+    #montagne1 #text2{
+        margin-left: 10%;
+    }
+
+    #montagne1 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #montagne2{
+        background-size: 100% 56%;
+    }
+
+    #montagne2 #text1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #montagne2 #text2{
+        margin-left: 10%;
+    }
+
+    #montagne2 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #montagne3{
+        background-size: 100% 56%;
+    }
+
+    #montagne3 #text1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #montagne3 #text2{
+
+        margin-left: 10%;
+    }
+
+    #montagne3 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    
+    #text1 hr{
+        margin-top: 2%;
+        color: #EFEFEF;
+        height: 70%;
+        border-radius: 0.5em;
+        margin-left: 53%;
+        margin-right: 17%;
+    }
+
+    
+    #text2 hr{
+        margin-left: 5%;
+        margin-right: 0.5%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    
+    #mer1{
+        background-size: 100% 58%
+    }
+
+    #mer1 #text1{
+        margin-left: 5%;
+    }
+
+    #mer1 #text2{
+        margin-left: 10%;
+    }
+
+    #mer1 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em; 
+    }
+
+    #mer2{
+        background-size: 100% 58%;
+    }
+
+    #mer2 #text1{
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    #mer2 #text2{
+        margin-left: 10%;
+    }
+
+    #mer2 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #mer3{
+        background-size: 100% 58%;
+    }
+
+    #mer3 #text1{
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+
+    #mer3 #text2{
+
+        margin-left: 10%;
+    }
+
+    #mer3 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    
+    #international1 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    
+    #international2 {
+        background-size: 100% 58%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international2 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    #international3 {
+        background-size: 100% 58%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #international3 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+         
+} 
+#navDescDetail {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#navDescDetail ul{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 100%;
+	height: 3em;
+    margin-top: 25px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #255170;
+}
+
+#navDescDetail ul li{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+	list-style: none;
+	padding: 0 6%;
+	font-size: 20px;
+}
+
+#navDescDetail a {
+	color: #efefefef;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#navDescDetail a:hover {
+	color: #99CDF2;
+}
+
+/* MAIN ----------------------------------------------------------------------------------------------------------- */
+
+/*Titre plage d'argent*/
+
+#titre img {
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+#titre h1 {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	justify-content: space-around;
+	text-align: center;
+	background-color: #EFEFEF;
+	box-shadow: inset 0 0 10px black;
+	padding: 0.5em;
+	top:4.05em;
+	margin-right:auto;
+	margin-left:auto;
+	z-index: 1;
+}
+
+.bloc {
+    background-color: #255170;
+    padding: 0em;
+	margin: 25px 0 0 0em ;
+    color:white;
+}
+
+.bloc p {
+	padding: 1em;
+}
+
+.bloc ul {
+	padding: 1em;
+}
+
+.bloc h3 {
+    color: #99CDF2;
+	padding: 1em;
+	padding-bottom: 1em;
+}
+
+.bloc ul {
+	margin: 0 1em;
+}
+
+
+#DescDetailColonne1 {
+    position : relative;
+    top: 40%;
+    left: 5%;
+    width: 40%;
+}
+
+	/* Colonne 1 articles */
+
+	#DescDetailColonne2 {
+        position: absolute;
+        top: 95%;
+        right: 11%;
+		width: 40%;
+	}
+
+    #DescDetailColonne2 img {
+        width: 100%;
+	}
+
+
+/*Equipements -------------------------------------------------------------- */
+
+#DescDetailEquipements {
+	display:flex;
+	margin:0px;
+}
+
+#DescDetailEquipementsColonne1 {
+	display:flex;
+	flex-direction: column;
+	width:60%;
+}
+
+#piscine {
+	flex-grow: 100;
+	width:100%;
+}
+
+/* Restauration */
+
+#restauration {
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+
+
+/* Localisation */
+
+#localisation {
+	display:flex;
+	flex-direction: column;
+}
+
+#localisation iframe{
+	width: 100%;
+	height: 17.4em;
+}
+
+/*lien vers sejour */
+
+#sejour {
+	background-color: #255170;
+	margin: 1em 5%;
+	display: flex;
+	flex-direction: row;
+}
+
+#texte {
+	width:50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+/* #sejour  */
+
+#sejourImg{
+	width: 50%;
+}
+
+#sejour img {
+	display: flex;
+	width: 100%;
+}
+
+#sejour h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	
+	font-size: x-large;
+	padding: 1em;
+}
+
+#sejour p {
+	color: #efefefef;
+	
+	font-size: large;
+	padding: 1em;
+	
+}
+
+#lien_sejour {
+	width: 100%;      
+	margin-top: 1em;     
+	color: #FFFFFF;
+	background-color: #0F2637;	
+	font-weight: bold;
+	border:0px;
+	padding: 10px;
+}
+
+#lien_sejour:hover {
+	color: #99CDF2;
+}
+/* attraits */
+#hautpage {
+    height: 50%;
+    background-image: url(images/hautpage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Inter;
+    padding-bottom: 19%;
+    text-align: center;
+}
+
+#hautpage h2 {
+    background-color: #D8E4EC;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    margin: 0 auto;
+    width: 25%;
+    padding: 0.75em;
+
+}
+
+/* Définition du corps de page  */
+#barenav2  {
+    display: flex;
+    margin-left: 1.5%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#barenav2 ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 4.5em;
+	background-color: #255170;
+	background-size: 5%;
+	background-position: 5%;
+}
+
+#barenav2 ul li{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+	list-style: none;
+	padding: 0 3%;
+	font-size: 28px;
+}
+
+#barenav2 a {
+	color: #efefefef;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#barenav2 a:hover {
+	border-top: solid #99CDF2;
+    justify-content: center;
+	border-radius: 3px;
+	border-width: 3px;
+    transform: translateY(-12px);
+	padding-top: 10.5px;
+} 
+
+#map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1.5em ;
+    font-size: large;
+}
+
+#loca {
+    text-align: left;
+    color: #99CDF2;
+    line-height: 2em;
+    background-color: #255170;
+    padding: 0.15%;
+}
+
+#loca iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+#loca img {
+    width: 3%;
+    height: 100%;
+}
+
+#desc {
+    position: relative;
+    left: 1.8em;
+    text-align: center;
+    color: #99CDF2;
+    line-height: 2em;
+    background-color: #255170;
+    padding-top: 13.5%;
+    padding-bottom: 13.5%;
+}
+
+#sep {
+    width: 98%;
+    position: relative;
+    left: 1.8em;
+    text-align: center;
+    line-height: 2em;
+}
+/* Carousel */
+.container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: #0F2637;
+    justify-content: center;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    width: 90%;
+    background-color: #255170;
+    z-index: 1;
+}
+
+
+
+.container2 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: #0F2637;
+    margin-bottom: 2%;
+    justify-content: center;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+}
+
+.container2 img {
+    width: 90%;
+    background-color: #255170;
+    z-index: 1;
+}
+
+
+.container button {
+    height: 10%;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    border: 2px solid #99CDF2;
+    cursor: pointer;
+    background-color: #255170;
+    padding: 1em;
+    display: flex;
+}
+/*Définition Bouton*/
+.container button .arrow {
+    border: solid #99CDF2;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+.container2 button {
+    height: 10%;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    border: 2px solid #99CDF2;
+    cursor: pointer;
+    background-color: #255170;
+    padding: 1em;
+    display: flex;
+}
+/*Définition Bouton*/
+.container2 button .arrow {
+    border: solid #99CDF2;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+/*Placement Boutons*/
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+#right-btn {
+    z-index: 0;
+    position: relative;
+    top: 45%;
+    right: 0%;
+    left: -1.5%;
+    bottom: 0%;
+    margin-left: 3%;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    position: relative;
+    top: 45%;
+    right: 0%;
+    left: 1.5%;
+    bottom: 0%;
+    margin-right: 3%;
+}
+
+#left-btn2 .arrow {
+    transform: rotate(135deg);
+}
+
+#right-btn2 {
+    z-index: 0;
+    position: relative;
+    top: 45%;
+    right: 0%;
+    left: -1.5%;
+    bottom: 0%;
+    margin-left: 3%;
+}
+
+#right-btn2 .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn2 {
+    z-index: 0;
+    position: relative;
+    top: 45%;
+    right: 0%;
+    left: 1.5%;
+    bottom: 0%;
+    margin-right: 3%;
+}
+
+/* Séjours */
+
+
+/* SLIDER ----------------------------------------------------------------------------------------------------------- */
+
+.interieur_diapo img{
+	width : 750px;
+	height : 250px;
+}
+
+.navigation_diapo img{
+	width : 150px;
+	height : 50px;
+}
+
+/*pour le saut de page, on cree une class que l'on met en display:none*/
+.target{
+    display: none
+}
+
+/* englobe le slider */
+.cadre_diapo{
+    max-width: 750px;
+    margin: 0.5em 2em;
+    overflow: hidden;
+	float: left;
+}
+
+.interieur_diapo{
+    display: flex;
+    width: 500%;
+    transition: transform .5s ease-in-out
+}
+	
+#votre_id1:target ~ .cadre_diapo .interieur_diapo{
+    transform:translatex(0)
+}/*image 1*/
+
+#votre_id2:target ~ .cadre_diapo .interieur_diapo{
+    transform:translatex(-20%)
+}/*image 2*/
+
+#votre_id3:target ~ .cadre_diapo .interieur_diapo{
+    transform:translatex(-40%)
+}/*image 3*/
+
+#votre_id4:target ~ .cadre_diapo .interieur_diapo{
+    transform:translatex(-60%)
+}/*image 4*/
+
+#votre_id5:target ~ .cadre_diapo .interieur_diapo{
+    transform:translatex(-80%)
+}/*image 5*/
+
+/*navigation avec images miniatures*/
+.navigation_diapo{
+    display: flex; /*permet d'aligner les photos les unes à la suite des autres*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_diapo li {
+	margin: 0 .08em;
+}
+
+/* SEJOUR - DESCRIPTION ----------------------------------------------------------------------------------------------------------- */
+
+#detailsejour {
+	background-color: #D8E4EC;
+	border-bottom: solid #255170 2px;
+	box-shadow: #255170 0 0 4px 0;
+	padding: 1em;
+	padding-bottom: 2em;
+	height: 19em;
+}
+
+#h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 0.5em;
+} 
+
+#p{
+	font-size: 25px;
+	text-align: justify;
+	margin: 0 2em;
+	padding-top: 1em;
+	padding-left: 15em;
+} 
+
+/* NOTATION SEJOUR - DETAIL ----------------------------------------------------------------------------------------------------------- */
+
+#reco{
+	display: flex;
+	flex-direction: row;
+
+    color: #EFEFEF;
+    font-size: 12px;
+	margin-top: 1em;
+}
+
+#reco img{
+	height: 25px;
+	width: 25px;
+    padding-right: 0.3em;
+}
+
+#recommandation, #note {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: space-around;
+	text-align: center;
+
+	width: auto;
+    background-color: #255170;
+	width: 10em;
+	padding: 0.3em 0;
+	margin-right: 1em;
+	border-radius: 5px;
+}
+
+#note {
+    letter-spacing: 0.2em;
+}
+
+.bleu {
+    color: #99CDF2;
+}
+
+/* SEJOUR - NAVIGATION ----------------------------------------------------------------------------------------------------------- */
+
+#navigationarticles a:hover {
+    color: #99CDF2;
+} 
+
+#navigationarticles {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	margin: 1em 0em;
+}
+
+#navigationarticles ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 5%;
+	width: 100%;
+	padding: 1em 0;
+	background-color: #255170;
+}
+
+#navigationarticles ul li{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	
+	list-style: none;
+	letter-spacing: 2px;
+	padding: 0 5%;
+	font-size: 20px;
+}
+
+#navigationarticles a {
+	color: #efefefef;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+/* DETAILS ----------------------------------------------------------------------------------------------------------- */
+
+#details {
+	background:#255170 url(images/6.jpg);
+	background-size: 30% 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+	margin: 1em 5%;
+	padding: 1em;
+}
+
+#article {
+	line-height: 1.5em;
+	padding: 1em;
+}
+
+#article h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	font-size: large;
+}
+
+#article p {
+	color: #efefefef;
+	font-size: large;
+	width: 62%;
+}
+
+#plusejour {
+	background-color: #EFEFEF;
+	box-shadow: inset 0 0 10px black;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -21.5em;
+	padding: 1.5em 0.5em;
+}
+
+#plusejour h4 {
+	color: black;
+	padding: 1em 2em;
+	font-size: large;
+	padding-top: 1.2em;
+}
+
+#plusejour p {
+	color: black;
+	padding: 1em 2em;
+	font-size: medium;
+	line-height: 1em;
+}
+
+/* TARIFS ----------------------------------------------------------------------------------------------------------- */
+
+#tarifs {
+	background-color: #255170;
+	margin: 1em;
+	margin-left: 5%;
+	padding: 0.3em;
+	width: 30%;
+}
+
+#tarifs h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	padding: 1em;
+	font-size: large;
+}
+
+#tarifs p {
+	color: #efefefef;
+	padding: 1em;
+	font-size: large;
+}
+
+#tarifs table {
+	background-color: #EFEFEF;
+	width: 100%;
+	box-shadow: inset 0 0 10px black;
+	padding: 1em 0;
+}
+
+#tarifs table hr{
+	width: 60%;
+	float: right;
+	margin-right:20%;
+}
+
+/* PRESTATION ----------------------------------------------------------------------------------------------------------- */
+
+#prestation {
+	background-color: #255170;
+	margin: 1em;
+	margin-right: 5%;
+	width: 57.73%;
+	background:#255170;
+	background-image:  url(images/7.jpg), url(images/8.jpg);
+	background-size: 40.5% 50%;
+	background-position: right top , right bottom;
+	background-repeat: no-repeat;
+	line-height: 3em;
+	padding: 3em 2em;
+}
+
+#prestation h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	font-size: large;
+	padding-left: 2em;
+}
+
+#prestation p {
+	color: #efefefef;
+	font-size: large;
+	padding-left: 2em;
+	width: 54%;
+}
+
+/* 2 ARTICLES COTE A COTE ----------------------------------------------------------------------------------------------------------- */
+
+#lignedeux {
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-flow: nowrap;
+}
+
+/* EQUIPEMENTS ----------------------------------------------------------------------------------------------------------- */
+
+#equipements {
+	background-color: #255170;
+	margin: 1em 5%;
+	padding: 1em;
+	padding-bottom: 10em;
+	background:#255170;
+	background-image:  url(images/9.jpeg), url(images/10.jpg), url(images/11.jpg);
+	background-size: 33.3% 45%;
+	background-position: left bottom , center bottom, right bottom;
+	background-repeat: no-repeat;
+	font-size: large;
+
+}
+
+#equipements ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+
+	list-style: none;
+	line-height: 1.5em;
+	padding: 1em;
+	height: 50%;
+}
+
+#equipements h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+}
+
+#equipements p {
+	color: #efefefef;
+}
+
+/* ACTIVITES ----------------------------------------------------------------------------------------------------------- */
+
+#activites {
+	background-color: #255170;
+	margin: 1em 5%;
+	background:#255170 url(images/12.jpg);
+	background-size: 30% 100%;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-top: 3em;
+	text-align: justify;
+}
+
+#activites h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	font-size: x-large;
+	padding: 1em 2.5em;
+}
+
+#activites p {
+	color: #efefefef;
+	font-size: large;
+	padding: 1em 3em;
+	width: 65%;
+}
+
+#btn1 {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1em;
+	color: #FFFFFF;
+	background: #0F2637;
+	border: none;
+	width: 70.1%;
+	margin-top: 3.0em;
+	font-weight: bold;
+}
+	
+#btn1:hover {
+	color: #99CDF2;
+}
+
+/* SEPARATEUR ----------------------------------------------------------------------------------------------------------- */
+
+#séparateur {
+	height: 5em;
+	background-image: url(images/Separateur.png);
+	background-size: 75%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+    background-color: #EFEFEF;
+}
+
+#séparateur h3{
+	text-transform: uppercase;
+	background-color: #EFEFEF;
+	width: 15%;
+	text-align: center;
+	margin-left: 43%;
+	padding: 1.5% 0;
+}
+
+/* HEBERGEMENT ----------------------------------------------------------------------------------------------------------- */
+
+#hebergement {
+	background-color: #255170;
+	margin: 1em 5%;
+	background:#255170 url(images/13.jpg);
+	background-size: 40% 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-top: 3em;
+	text-align: justify;
+}
+
+#hebergement h4 {
+	text-transform: uppercase;
+	color: #99CDF2;
+	margin-left: 45%;
+	font-size: x-large;
+	padding: 1em;
+}
+
+#hebergement p {
+	color: #efefefef;
+	margin-left: 45%;
+	font-size: large;
+	padding: 1em;
+	width: 48%;
+}
+
+#btn2 {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 1em;
+	color: #FFFFFF;
+	background: #0F2637;
+	border: none;
+	width: 60%;
+	margin-top: 4.0em;
+	font-weight: bold;
+	margin-left: 40%;
+}
+	
+#btn2:hover {
+	color: #99CDF2;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 320px){
+    /* TEXTE */ 
+.Accueil_Nom h1, .Accueil_Nom h2 {
+    font-size: 200%
+}
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+    font-size: 90%;
+}
+
+.Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+    font-size: 60%;
+}
+.Accueil_PromoTarifTemps p {
+    font-size: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+    /* TEXTE */ 
+.Accueil_Nom h1, .Accueil_Nom h2 {
+    font-size: 220%
+}
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+    font-size: 9%;
+}
+
+.Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+    font-size: 80%;
+}
+.Accueil_PromoTarifTemps p {
+    font-size: auto;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    /* TEXTE */ 
+
+.Accueil_HautDepage{
+    height: 30em;
+}
+    
+.Accueil_Nom h1, .Accueil_Nom h2 {
+    font-size: 230%
+}
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+    font-size: 100%;
+}
+
+.Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+    font-size: 90%;
+}
+.Accueil_PromoTarifTemps p {
+    font-size: auto;
+}
+
+    /* CHANGEMENT DE DIRECTION FLEXBOX A Propos de Nous*/
+.Accueil_DétailAProposDeNous{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+}
+.Accueil_DétailAProposDeNous hr {
+    position: relative;
+    top:auto;
+    width: 50em;
+    height: auto;
+}
+.Acceuil_DétailAprofondi {
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 1200px) {
+    /* TEXTE */
+
+.Accueil_HautDepage{
+    height: 35em;
+}
+
+.Accueil_Nom h1, .Accueil_Nom h2 {
+    font-size: 240%
+}
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+    font-size: 90%;
+}
+
+.Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+    font-size: 100%;
+}
+.Accueil_PromoTarifTemps p {
+    font-size: auto;
+}
+
+    /* CHANGEMENT DE DIRECTION FLEXBOX Sejours*/
+.Accueil_SejoursALaUne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: auto;
+}
+.Accueil_Sejour {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+
+.Accueil_PresentationPromo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: auto;
+}
+.Accueil_ExemplePromo {
+    margin-top: 4em;
+    right: 1.5em;
+}
+}
+
+@media screen and (max-width: 1520px) {
+    /* TEXTE */
+.Accueil_HautDepage{
+    height: 45em;
+}
+
+.Accueil_Nom h1, .Accueil_Nom h2 {
+    font-size: 260%
+}
+
+#Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+    font-size: 110%;
+}
+
+.Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+    font-size: 90%;
+}
+.Accueil_PromoTarifTemps p {
+    font-size: auto;
+}
+}
+/* MEDIA QUERIES - PC ----------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 560px) and (max-width: 1440px) {
+        /* TEXTE */
+    
+        .Accueil_HautDepage{
+            height: 40em;
+        }
+    
+        .Accueil_Nom h1, .Accueil_Nom h2 {
+            font-size: 250%
+        }
+        
+        #Accueil_Section h2, #Accueil_Section h3, #Accueil_Section h4 {
+            font-size: 100%;
+        }
+    
+        .Accueil_SejourNom p, .Accueil_PromoNom p, .Acceuil_DétailAprofondi p {
+            font-size: 80%;
+        }
+        .Accueil_PromoTarifTemps p {
+            font-size: auto;
+        }
+    
+        .Accueil_AProposDeNous {
+            text-align: center;
+            padding: 1em;
+        }
+
+
+    /* attraits */
+
+    #loca iframe {
+        width: 800px;
+        height: 400px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    
+	#barreNav ul {
+		background-size: 5.5em;      
+		background-position: 3%;     
+	}
+
+	#barreNav ul li{
+		font-size: 23px;     
+	}
+
+	#barreNav a:hover {
+		border-width: 2px;   
+		padding-top: 5px;    
+	} 
+
+	.interieur_diapo img{
+		width : 550px;       
+		height : 200px;      
+	}
+
+	.navigation_diapo img{
+		width : 110px;       
+	}
+	
+	.cadre_diapo{
+		max-width: 550px;    
+	}
+
+	#detailsejour {
+		height: 16em;        
+	}
+	
+	#h3{
+		font-size: 28px;     
+	}
+
+	#p{
+		font-size: 20px;     
+	} 
+
+	#navigationarticles ul li{
+		font-size: 18px;         
+	}
+
+	#details {
+		background-size: 25% 100%;       
+	}
+
+	#article h4 {
+		font-size: medium;   
+	}
+
+	#article p {
+		font-size: medium;   
+	}
+
+	#plusejour {
+		margin-left: 60%;        
+	}
+
+	#tarifs h4 {
+		font-size: medium;    
+	}
+
+	#tarifs p {
+		font-size: medium;   
+	}
+
+	#tarifs table {
+		width: 100%;   
+		font-size: 12px;
+		padding: 2.5em 0;  
+	}
+
+	#prestation {
+		background-size: 38.5% 50%;        
+		padding: 2em 2em;	 
+	}
+
+	#prestation h4 {
+		font-size: medium;   
+	}
+	
+	#prestation p {
+		font-size: medium;   
+	}
+
+	#equipements {
+		font-size: medium;   
+	}
+
+	#equipements ul {
+		justify-content: space-between;  
+	}
+
+	#activites {
+		background-size: 25% 100%;   
+	}
+	
+	#activites h4 {
+		font-size: large;    
+	}
+	
+	#activites p {
+		font-size: medium;   
+	}
+	
+	#btn1 {
+		width: 75%;      
+	}
+
+	#séparateur h3{
+		width: 20%;      
+		margin-left: 40%;    
+		padding: 2% 0;       
+	}
+
+	#hebergement {
+		background-size: 35% 100%;   
+		padding-top: 2em;    
+	}
+	
+	#hebergement h4 {
+		margin-left: 40%;    
+		font-size: large;    
+	}
+	
+	#hebergement p {
+		margin-left: 40%;    
+		font-size: medium;   
+	}
+	
+	#btn2 {
+		width: 65%;      
+		margin-top: 1em;     
+		margin-left: 35%;    
+	}
+
+	footer section {
+		height: 8em;     
+	}
+	
+	footer img {
+		width : 170px;   
+		height : 160px;  
+	}
+	
+	#mention p {
+		margin-bottom: 0.5em;     
+	}
+
+	#reseaux {
+		line-height: 2em;    
+	}
+	
+	#reseaux img{
+		width : 90px;    
+		height : 70px;   
+	}
+}
+
+/* MEDIA QUERIES - Portable ----------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 0px) and (max-width: 560px) and (orientation : portrait) {
+	#barreNav ul {
+		height: 4em;	 
+		background-size: 2em;      
+		background-position: 1%;     
+	}
+
+	#barreNav ul li{
+		padding: 0 2%;		 
+		font-size: 10px;     
+	}
+
+	#barreNav a:hover {
+		border-width: 2px;   
+		padding-top: 5px;    
+	} 
+
+	.interieur_diapo img{
+		width : 400px;       
+		height : 150px;      
+	}
+
+	.navigation_diapo img{
+		width : 80px;
+		height : 35px;  
+	}
+
+	.cadre_diapo{
+		max-width: 400px;    
+	}
+
+	#detailsejour {
+		height: 25em;        
+	}
+
+	#info {					 
+		float: left;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#reco{	 
+		font-size: 8px;
+		margin: 0;
+		margin-bottom: 1em;
+	}
+
+	#reco img{
+		height: 15px;
+		width: 15px;
+		padding-right: 0.3em;
+	}
+
+	#recommandation, #note {
+		width: 8em;
+		padding: 0.3em 0;
+		margin-right: 1em;
+		border-radius: 5px;
+	}
+
+	#h3{
+		font-size: 15px;     
+	} 
+
+	#p{
+		font-size: medium;     
+		margin-bottom: 1em;		 
+		padding-left: 0em;	 
+	} 
+
+	#navigationarticles ul {
+		padding: 0.8em 0;		 
+	}
+
+	#navigationarticles ul li{
+		letter-spacing: 1px;	 
+		padding: 0 2.5%;			 
+		font-size: 10px;         
+	}
+
+	#details {
+		background:#255170;		 
+		background-size: 25% 100%;       
+	}
+
+	#article {
+		padding: 0.5em;		 
+	}
+
+	#article h4 {
+		font-size: small;   
+	}
+
+	#article p {
+		font-size: small;   
+		width: 60%;		 
+	}
+
+	#plusejour {
+		margin-left: 47%;        
+		margin-right: 12%;		
+		margin-top: -37em;
+		padding: 10.5em 0.5em;
+	}
+
+	#plusejour h4 {
+		padding: 0.5em 1em;		 
+		font-size: small;		 
+	}
+
+	#plusejour p {
+		padding: 0.5em 1em;		 
+		font-size: small;		 
+	}
+
+	#tarifs {
+		margin: 1em 5%;
+		width: 100%;
+	}
+
+	#tarifs h4 {
+		padding: 1em 1.5em;	 
+		font-size: small;    
+	}
+
+	#tarifs p {
+		padding: 1em 1.5em;	 
+		font-size: small;   
+	}
+
+	#tarifs table {
+		width: 100%;   
+		font-size: 12px;
+	}
+
+	#prestation {
+		margin: 0em;				 
+		margin: 1em 5%;			 
+		width: 100%;			
+		background-position: left bottom , right bottom;	 
+		background-size: 50% 30%;        
+		line-height: 1.5em;	 
+		padding: 2em 1.5em;	
+		padding-bottom: 8em; 
+	}
+
+	#prestation h4 {
+		font-size: small;   
+		padding-left: 0em;	 
+	}
+
+	#prestation p {
+		font-size: small;   
+		padding-left: 0em;	 
+	}
+
+	#lignedeux {
+		display: flex;				 
+		flex-direction: column;		 
+		flex-flow: wrap;			 
+	}
+
+	#equipements {
+		padding-bottom: 7em;	 
+		background-size: 33.3% 25%;   
+		font-size: small;   
+
+	}
+
+	#equipements ul {
+		flex-direction: column;		 
+		justify-content: space-between;  
+	}
+
+	#equipements p {
+		padding-bottom: 1em;		 
+	}
+
+	#activites {
+		background-size: 33.3% 100%;   
+		padding-top: 0.5em;		 
+	}
+
+	#activites h4 {
+		font-size: medium;    
+		padding: 1em 1.5em;	 
+	}
+
+	#activites p {
+		font-size: small;   
+		padding: 0.5em 1.5em;	 
+		width: 60%;		 
+		padding-bottom: 1em;	 
+	}
+
+	#btn1 {
+		width: 67%;      
+		margin-top: 0em;	 
+	}
+
+	#séparateur h3{
+		font-size: small;		 
+		width: 35%;      
+		margin-left: 33%;    
+		padding: 7% 0;       
+	}
+
+	#hebergement {
+		background:#255170;	 
+		background-size: 33.3% 80%;   
+		padding-top: 1.5em;    
+	}
+
+	#hebergement h4 {
+		margin-left: 1.5em;    
+		font-size: medium;    
+	}
+
+	#hebergement p {
+		margin-left: 1.5em;    
+		font-size: small;   
+		width: 90%;	 
+	}
+
+	#btn2 {
+		width: 100%;      
+		margin-top: 1em;     
+		margin-left: 0;    
+	}
+    /* Page emma */
+
+    #montagne1 #text1{
+        margin-left: 10%;
+    }
+
+    #montagne1 #text2{
+        margin-left: 10%;
+    }
+
+    #montagne1 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #montagne2{
+        background-size: 100% 56%;
+    }
+
+    #montagne2 #text1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #montagne2 #text2{
+        margin-left: 10%;
+    }
+
+    #montagne2 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #montagne3{
+        background-size: 100% 56%;
+    }
+
+    #montagne3 #text1{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    #montagne3 #text2{
+
+        margin-left: 10%;
+    }
+
+    #montagne3 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    
+    #text1 hr{
+        margin-top: 2%;
+        color: #EFEFEF;
+        height: 70%;
+        border-radius: 0.5em;
+        margin-left: 53%;
+        margin-right: 17%;
+    }
+
+    
+    #text2 hr{
+        margin-left: 5%;
+        margin-right: 0.5%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    
+    #mer1{
+        background-size: 100% 58%
+    }
+
+    #mer1 #text1{
+        margin-left: 5%;
+    }
+
+    #mer1 #text2{
+        margin-left: 10%;
+    }
+
+    #mer1 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em; 
+    }
+
+    #mer2{
+        background-size: 100% 58%;
+    }
+
+    #mer2 #text1{
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    #mer2 #text2{
+        margin-left: 10%;
+    }
+
+    #mer2 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    #mer3{
+        background-size: 100% 58%;
+    }
+
+    #mer3 #text1{
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+
+    #mer3 #text2{
+
+        margin-left: 10%;
+    }
+
+    #mer3 #text3{
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    
+    #international1 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    
+    #international2 {
+        background-size: 100% 58%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international2 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+    #international3 {
+        background-size: 100% 58%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #international3 #text3 {
+        margin-left: 15%;
+        position: relative;
+        top: -0.3em;
+    }
+
+    /* Page Martin */
+
+    	/* barre nav 2 */
+
+	#navDescDetail ul{
+		height: 2.5em;
+		margin-top: 25px;
+	}
+
+	#navDescDetail ul li{
+		list-style: none;
+		padding: 0 1.5%;
+		font-size: 10px;
+	}
+
+	/* Blocs */
+
+	.bloc p {
+		font-size: 13px;
+	}
+
+	.bloc h3 {
+		font-size: 15px;
+		padding: 1em;
+		padding-bottom: 1em;
+	}
+
+	.bloc ul {
+		font-size: 13px;
+	}
+	
+	/*titre plage d'argent*/
+
+	#titre h1 {
+		font-size: 12px;
+		top:6.4em;
+	}
+
+	/* Colonne d'articles */
+
+	#DescDetailflex {
+		display:flex;
+		flex-direction: column;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	/* Colonne 1 articles */
+
+	#DescDetailColonne1 {
+		width:100%;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+
+	/* Colonne 2 articles */
+	#DescDetailColonne2 {
+		width:100%;
+		margin-right: 0%;
+	}
+
+	#restauration img {
+		width:100%;
+	}
+
+	/* lien vers page du séjour */
+
+	#sejour {
+		flex-direction: column;
+	}
+
+	#texte, #sejourImg {
+		width: 100%;
+	}
+
+	#texte p{
+		font-size: 13px;
+	}
+
+	#texte h4 {
+		font-size: 15px;
+	}
+
+    /* Page evan */
+
+    #loca iframe {
+        width: 300px;
+        height: 150px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+}
+    /* MEDIA QUERIES - PC ----------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 560px) and (max-width: 1440px) {
+	#barreNav ul {
+		background-size: 5.5em;      
+		background-position: 3%;     
+	}
+
+	#barreNav ul li{
+		font-size: 23px;     
+	}
+
+	#barreNav a:hover {
+		border-width: 2px;   
+		padding-top: 5px;    
+	} 
+
+	.interieur_diapo img{
+		width : 550px;       
+		height : 200px;      
+	}
+
+	.navigation_diapo img{
+		width : 110px;       
+	}
+	
+	.cadre_diapo{
+		max-width: 550px;    
+	}
+
+	#detailsejour {
+		height: 16em;        
+	}
+	
+	#h3{
+		font-size: 28px;     
+	}
+
+	#p{
+		font-size: 20px;     
+	} 
+
+	#navigationarticles ul li{
+		font-size: 18px;         
+	}
+
+	#details {
+		background-size: 25% 100%;       
+	}
+
+	#article h4 {
+		font-size: medium;   
+	}
+
+	#article p {
+		font-size: medium;   
+	}
+
+	#plusejour {
+		margin-left: 60%;        
+	}
+
+	#tarifs h4 {
+		font-size: medium;    
+	}
+
+	#tarifs p {
+		font-size: medium;   
+	}
+
+	#tarifs table {
+		width: 100%;   
+		font-size: 12px;
+		padding: 2.5em 0;  
+	}
+
+	#prestation {
+		background-size: 38.5% 50%;        
+		padding: 2em 2em;	 
+	}
+
+	#prestation h4 {
+		font-size: medium;   
+	}
+	
+	#prestation p {
+		font-size: medium;   
+	}
+
+	#equipements {
+		font-size: medium;   
+	}
+
+	#equipements ul {
+		justify-content: space-between;  
+	}
+
+	#activites {
+		background-size: 25% 100%;   
+	}
+	
+	#activites h4 {
+		font-size: large;    
+	}
+	
+	#activites p {
+		font-size: medium;   
+	}
+	
+	#btn1 {
+		width: 75%;      
+	}
+
+	#séparateur h3{
+		width: 20%;      
+		margin-left: 40%;    
+		padding: 2% 0;       
+	}
+
+	#hebergement {
+		background-size: 35% 100%;   
+		padding-top: 2em;    
+	}
+	
+	#hebergement h4 {
+		margin-left: 40%;    
+		font-size: large;    
+	}
+	
+	#hebergement p {
+		margin-left: 40%;    
+		font-size: medium;   
+	}
+	
+	#btn2 {
+		width: 65%;      
+		margin-top: 1em;     
+		margin-left: 35%;    
+	}
+
+    /* Page emma */
+
+    #entete{
+        background-size: 100% 100%;
+        height: 127px;
+        width: auto;
+        padding-right: 6%;
+    }
+
+    #entete h1{
+        font-size: 20px;
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+
+    #entete p{
+        font-size: 11px;
+        padding-left: 3%;
+        padding-right: 23%;
+        padding-top: 3%;
+        padding-bottom: 9%;
+    }
+
+    #montagne{
+        background-size: 115px 76px;
+        padding-left: 5%
+    }
+
+    #mer{
+        background-size: 115px 76px;
+        padding-left: 5%
+    }
+
+    #international {
+        background-size: 115px 76px;
+        padding-left: 5%;
+    }
+
+    .opacite{
+        padding: 0.2em;
+        font-size: 10px;
+    
+    }
+
+    #endroit ul{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #endroit ul li{
+        padding-left: 4.5%;
+        padding-right: 5%;
+        height: 76px;
+        font-size: 11px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3.5%;
+        margin-bottom: 0.5%;
+    }
+
+    #separateur img{
+        width: 95.5%;
+        height: 2%;
+
+    }
+
+    #sejour1{
+        height: 215px;
+    }
+
+    #sejour1 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour1 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport1 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #montagne1 {
+        background-size: 100%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #montagne1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne1 {
+        width: 115px;
+        
+    }
+
+    #montagne2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #montagne2 #text1{
+        margin-top: 10%;
+    }
+
+    #montagne2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne2 {
+        width: 115px;
+    }
+
+    #montagne3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #montagne3 #text1{
+        margin-top: 10%;
+    }
+
+    #montagne3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmontagne3 {
+        width: 115px;
+    }
+
+    #text1{
+        font-size: 8.5px;
+    
+        padding-top: 40%;
+        margin-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 2%;
+        margin-left: 8%;
+    
+    }
+    
+    #text1 hr{
+        margin-top: 2%;
+        color: #EFEFEF;
+        height: 70%;
+        border-radius: 0.5em;
+        margin-left: 53%;
+        margin-right: 17%;
+    }
+    
+    #text2{
+        font-size: 8.5px;
+    
+        padding-top: 3%;
+        padding-left: 5%;
+        margin-bottom: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    
+    #text2 hr{
+        margin-left: 5%;
+        margin-right: 0.5%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+    
+    #text3{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 3%;
+        margin-right: 0%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        font-size: 8.5px;
+    }
+
+    #sejour2{
+        height: 215px;
+    }
+
+    #sejour2 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour2 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport2 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #mer1 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #mer1 #text1{
+        padding-top: 34%;
+    }
+
+    #mer1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer1 {
+        width: 115px;
+        
+    }
+
+    #mer2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #mer2 #text1{
+        padding-top: 34%;
+    }
+
+    #mer2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer2 {
+        width: 115px;
+    }
+
+    #mer3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #mer3 #text1{
+        padding-top: 23%;
+    }
+
+    #mer3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockmer3 {
+        width: 115px;
+    }
+
+    #sejour3{
+        height: 215px;
+    }
+
+    #sejour3 h3 {
+        font-size: 11px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0.5%;
+    }
+
+    #sejour3 figure img{
+        height: 17px;
+        width: 17px;
+    }
+
+    #sport3 {
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        height: 230px;
+ 
+    }
+
+    #international1 {
+        background-size: 100%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%; 
+
+    }
+
+    #international1 #text1{
+        padding-top: 24%;
+    }
+
+    #international1 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter1 {
+        width: 115px;
+        
+    }
+
+    #international2 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international2 #text1{
+        padding-top: 23%;
+    }
+
+    #international2 h4 {
+        margin-top: 15%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter2 {
+        width: 115px;
+    }
+
+    #international3 {
+        background-size: 100% 53%;
+        width: 150px;
+        height: 170px;
+
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #international3 #text1{
+       padding-top: 23%;
+    } 
+
+    #international3 h4 {
+        margin-top: 20%;
+        padding: 0.5em;
+        margin: auto 10%;
+        margin-top: 20%;
+    }
+
+    #blockinter3 {
+        width: 115px;
+    }
+
+    /* Page martin */
+
+    	/* barre nav 2 */
+
+	#navDescDetail ul{
+		height: 2.5em;
+		margin-top: 25px;
+		margin-right: 5%;
+		margin-left: 5%;
+		background-color: #255170;
+	}
+
+	#navDescDetail ul li{
+		list-style: none;
+		padding: 0 2%;
+		font-size: 90%;
+	}
+	
+	/*titre plage d'argent*/
+
+	#titre h1 {
+		font-size: 19.5px;
+		top:6.025em;
+	}
+
+	/* definition classe bloc */
+
+	.bloc {
+		margin: 25px 0em 0 0em ;
+	}
+
+	.bloc p {
+		font-size: 90%;
+	}
+
+	.bloc ul {
+		padding: 1em;
+	}
+	
+	.bloc h3 {
+		color: #99CDF2;
+		padding: 1em;
+		padding-bottom: 1em;
+	}
+	
+	.bloc ul {
+		margin: 0 1em;
+	}
+
+	/* Colonne 1 articles */
+
+	#DescDetailColonne1 {
+		width:35%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+
+	#DescDetailColonne2 {
+		width:50%;
+	}
+
+	/* Colonne 2 articles */
+
+	#restauration img {
+		width:100%;
+	}
+
+    /* Footer */
+
+	footer section {
+		height: 8em;     
+	}
+	
+	footer img {
+		width : 170px;   
+		height : 160px;  
+	}
+	
+	#mention p {
+		margin-bottom: 0.5em;     
+	}
+
+	#reseaux {
+		line-height: 2em;    
+	}
+	
+	#reseaux img{
+		width : 90px;    
+		height : 70px;   
+	}
+}
+
+@media screen and (max-width: 768px) {
+    #loca iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    #reseaux img {
+        width: 50px;
+        height: 40px;
+    }
+
+    #reseaux {
+        line-height: 3em;
+    }
+
+    #mention img {
+        position: relative;
+        left: 1.8em;
+    }
+
+    #mention p {
+        position: relative;
+        left: 1.8em;
+
+        margin-top: -0.5em;
+        margin-bottom: 1em;
+    }
+
+    #copyr {
+        background-color: #0F2637;
+        padding: 0.5em;
+        text-align: center;
+        color: #EFEFEF;
+        font-style: italic;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #loca iframe {
+        width: 300px;
+        height: 150px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #loca iframe {
+        width: 200px;
+        height: 150px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #loca iframe {
+        width: 500px;
+        height: 250px;
+    }
+
+    #desc {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    #sep {
+        width: 98%;
+        position: relative;
+        left: 1.8em;
+        text-align: center;
+        line-height: 2em;
+    }
+}
+
+/* Définition de la scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(197, 255, 255);
+    border-radius: 100vw;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(37, 81, 112);
+    border-radius: 100vw;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 81, 112);
+  }
